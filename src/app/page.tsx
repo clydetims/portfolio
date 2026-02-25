@@ -515,11 +515,11 @@
               </motion.p>
 
 
-              {/* Profile Image */}
-              <div className="absolute right-0 flex items-center justify-center">
+              {/* Profile Image - Responsive */}
+              <div className="relative flex items-center justify-center lg:absolute lg:right-0 lg:top-1/3 lg:-translate-y-1/2 mb-12 lg:mb-0">
                 
-                {/* Half-ring gradient */}
-                <div className="absolute w-[450px] h-[450px]">
+                {/* Half-ring gradient - responsive sizing */}
+                <div className="absolute w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]">
                   <div 
                     className="absolute inset-0"
                     style={{ 
@@ -531,9 +531,9 @@
                   />
                 </div>
 
-                {/* Subtle glow */}
+                {/* Subtle glow - responsive sizing */}
                 <div 
-                  className="absolute w-[380px] h-[380px] rounded-full"
+                  className="absolute w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[340px] lg:h-[340px] xl:w-[380px] xl:h-[380px] rounded-full"
                   style={{ 
                     background: "radial-gradient(circle, var(--accent1) 0%, transparent 70%)",
                     filter: "blur(30px)",
@@ -541,14 +541,15 @@
                   }}
                 />
 
-                {/* Profile Image */}
+                {/* Profile Image - responsive */}
                 <div className="relative z-10">
                   <Image
                     src={personal.image}
                     width={400}
                     height={400}
                     alt="Profile Image"
-                    className="rounded-full shadow-2xl shadow-white"
+                    className="rounded-full shadow-2xl shadow-white w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[280px] md:h-[280px] lg:w-[320px] lg:h-[320px] xl:w-[400px] xl:h-[400px] object-cover"
+                    priority // Add priority since it's above the fold
                   />
                 </div>
 
