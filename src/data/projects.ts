@@ -86,7 +86,7 @@ export const projects: Project[] = [
       ]
     },
     featured: true,
-    link: "https://final-thesis-demo.vercel.app/",
+    link: "https://thesis-final-umber.vercel.app/",
   },
   {
     id: 4,
