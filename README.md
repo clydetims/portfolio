@@ -1,112 +1,31 @@
-# Portfolio — Next.js + TypeScript
+# Clyde Timothy Ador - Web Developer Portfolio
 
-A stunning, one-page portfolio with carousel, animations, and custom cursor.
+Hi! I'm an Aspiring Web Developer specializing in Laravel, Next.js, and Blockchain-integrated applications. I focus on building transparent, real-time, and user-friendly digital solutions.
 
-## 🚀 Getting Started
+## 📄 Curriculum Vitae
+[Download My CV (PDF)](./Ador_Clyde_Timothy_CV.pdf)
 
-```bash
-npm install
-npm run dev
-```
+## 🌐 Live Portfolio
+Check out my interactive portfolio here: [Your-Vercel-Link-Here.vercel.app]
 
-Open [http://localhost:3000](http://localhost:3000)
+## 🛠 Skills Summary
+* **Programming:** Java, JavaScript, TypeScript, PHP
+* **Frameworks:** Laravel, React, NextJS
+* **Tools:** Git, GitHub, Docker, Vercel
+* **Databases:** MySQL, PostgreSQL, SQLite, MongoDB, Supabase
 
----
+## 🚀 Projects
 
-## 🖼️ Adding Your Images
+### 1. DonAid: Smart Donation Blockchain System
+- **Description:** A transparency-focused application for the Puso Ng Ama Foundation using Blockchain for proof of receipt and donation tracking.
+- **Tech Stack:** NextJS, TypeScript, Neon Postgres, Vercel Blob
+- **GitHub Link:** [View Repository](https://github.com/thesis-donaid/thesis-final)
 
-1. Place your project images in `/public/images/`
-2. Supported formats: `.jpg`, `.jpeg`, `.png`, `.webp`
-3. Recommended size: **1200×675px** (16:9 ratio)
-
-Example:
-```
-public/
-  images/
-    project1.jpg
-    project2.jpg
-    avatar.jpg
-```
+### 2. Financial Web Blog
+- **Description:** A secure web platform featuring full CRUD operations and user authentication for financial content management.
+- **Tech Stack:** Laravel, PHP, SQLite
+- **GitHub Link:** [View Repository](https://github.com/ciit-cs401-2/hello)
 
 ---
+*Generated as part of the CV Creation and GitHub Portfolio Activity.*
 
-## ✏️ Editing Your Content
-
-All your content lives in **one file**: `src/data/projects.ts`
-
-### Edit Projects
-
-```ts
-export const projects: Project[] = [
-  {
-    id: 1,
-    title: "Your Project Name",
-    category: "Full Stack",       // Used for filters
-    year: "2024",
-    description: "What this project does and why it's impressive.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL"],
-    image: "/images/project1.jpg",  // Path in /public
-    link: "https://yourproject.com",
-    featured: true,  // Shows in the top carousel
-  },
-  // Add more projects...
-];
-```
-
-### Edit Personal Info
-
-```ts
-export const personal = {
-  name: "Your Name",
-  role: "Full Stack Developer",
-  bio: "Your bio here...",
-  email: "hello@yourname.com",
-  github: "https://github.com/yourname",
-  linkedin: "https://linkedin.com/in/yourname",
-  twitter: "https://twitter.com/yourname",
-  avatar: "/images/avatar.jpg",
-};
-```
-
----
-
-## 🎨 Features
-
-- **Custom cursor** with hover effects
-- **Auto-advancing carousel** for featured projects (every 5s, keyboard ← → navigation)
-- **Category filters** for all projects
-- **Project modal** — click any card for details
-- **Scroll progress bar** at the top
-- **Animated skill marquee**
-- **Smooth entrance animations** via Framer Motion
-- **Noise texture overlay** for depth
-- **Responsive** — mobile, tablet, desktop
-
----
-
-## 🎨 Customizing Colors
-
-Edit the CSS variables in `src/app/globals.css`:
-
-```css
-:root {
-  --bg: #0a0a0a;           /* Page background */
-  --surface: #111111;      /* Card backgrounds */
-  --surface2: #1a1a1a;     /* Secondary surfaces */
-  --border: #222222;       /* Borders */
-  --text: #f0ece4;         /* Main text */
-  --text-muted: #6b6560;   /* Secondary text */
-  --accent: #e8d5b0;       /* Accent color */
-  --highlight: #f5c842;    /* Yellow highlight */
-}
-```
-
----
-
-## 📦 Stack
-
-- **Next.js 14** (App Router)
-- **TypeScript**
-- **Tailwind CSS**
-- **Framer Motion** (animations)
-- **Google Fonts** (Syne + DM Sans)
