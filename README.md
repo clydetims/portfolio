@@ -3,7 +3,8 @@
 Hi! I'm an Aspiring Web Developer specializing in Laravel, Next.js, and Blockchain-integrated applications. I focus on building transparent, real-time, and user-friendly digital solutions.
 
 ## 📄 Curriculum Vitae
-[Download My CV (PDF)](./Ador_Clyde_Timothy_CV.pdf)
+[Download My CV.pdf](https://github.com/user-attachments/files/26202414/Untitled.document.pdf)
+
 
 ## 🌐 Live Portfolio
 Check out my interactive portfolio here: [Your-Vercel-Link-Here.vercel.app]
