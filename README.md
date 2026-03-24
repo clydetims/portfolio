@@ -3,7 +3,7 @@
 Hi! I'm an Aspiring Web Developer specializing in Laravel, Next.js, and Blockchain-integrated applications. I focus on building transparent, real-time, and user-friendly digital solutions.
 
 ## 📄 Curriculum Vitae
-[Download My CV.pdf](https://github.com/user-attachments/files/26202414/Untitled.document.pdf)
+[Download My CV.pdf](https://github.com/user-attachments/files/26202430/Ador_Clyde_CV.pdf)
 
 
 ## 🌐 Live Portfolio
